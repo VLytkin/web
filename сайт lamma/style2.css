@@ -1,0 +1,118 @@
+html{
+  height: 100%;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 18px;
+  background-color: rgb(255 230 0 / 50%);
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display';
+  text-align: center;
+}
+
+p {
+  color: #666;
+  line-height: 1.5;
+  text-align: center;
+  font-family: 'Playfair Display';
+}
+
+.button {
+  display: inline-block;
+  background-color: #dbdbdb;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align:center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 0.5;
+  font-family: 'Playfair Display';
+  border: 1px solid black;
+}
+.button:hover{
+  background-color: #dbdbdb;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+@keyframes attention{
+	0%{transform:scale(0.8);}
+	50%{transform:scale(1);}
+	100%{transform:scale(0.8);}
+}
+.slider{
+	background-color:black;
+	border-radius: 10px;
+	transform: scale(0.9);
+	/*animation:attention 1s 2;*/
+}
+.slider:hover{
+	transition: transform 0.5s;
+	transform: scale(1);
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 1px 8px;
+  cursor: pointer;
+  opacity:0.6;
+  margin:0 auto;
+}
+.image:hover{
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+.logo{
+  font-family: 'Lobster';
+}
+.map{
+  width: 600px;
+  height: 600px;
+  border-radius: 6px;
+  border: 1px solid black;
+  margin-top: 24px;
+}
+.name_organization{
+  font-family: 'Playfair Display';
+  font-size: 20px;
+  text-align: center;
+  font-weight: 800;
+}
+.adress_organisation{
+  font-family: 'Playfair Display';
+  font-size: 15px;
+  text-align: center;
+  white-space: nowrap;
+}
+.tel_organisation{
+  font-family: 'Playfair Display';
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;	
+}
