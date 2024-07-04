@@ -1,0 +1,50 @@
+body {
+  background-color: #8ebf42;
+  }
+  form {
+  width:400px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+  input{
+  padding:4px 10px;
+  border:0;
+  font-size:16px;
+  }
+  .search {
+  width: 75%;
+  }
+  .submit{
+  width: 70px;
+  background-color: #1c87c9;
+  margin-left: -4%;
+  color:#ffffff;
+  cursor: pointer;
+  opacity: 0.9;
+  border-radius: 5px;
+  }
+  .submit:hover{
+    opacity: 1;
+  }
+  .input-container {
+  position: relative;
+}
+.search {
+  padding-right: 30px; /* Добавляем отступ справа для уступа кнопки */
+  border-radius: 5px;
+}
+.btn {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.container{
+  font-size: 20px;
+}
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}

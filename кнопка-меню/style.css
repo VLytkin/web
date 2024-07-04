@@ -1,0 +1,33 @@
+.btn{
+  background-color: #0d00ff;
+  color:white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 25px;
+  font-family: "Lobster";
+  font-weight: 800;
+  opacity: 0.7;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+.btn:hover{
+  transition: background-color 0.3s;
+  background-color: red;
+}
+.message{
+  margin: 0 auto;
+  width: 100%;
+  font-size: 45px;
+  font-family: "Playfair-Display";
+  font-weight: 900;
+  display: block;
+  text-align: center;
+  border: 1px solid #0d00ff;
+  border-radius: 10px;
+  background-color: rgb(219 255 0 / 80%);
+}
+.hidden{
+  display: none;
+}
