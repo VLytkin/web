@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+<html lang="ru"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Мое Портфолио</title> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+</head> 
+<body> 
+ 
+    <header> 
+        <h1>
+            <span class="highlight">
+                <img src="img/face.jpg" alt="Владимир Лыткин" class="profile-pic">
+                Владимир Лыткин
+            </span>
+        </h1> 
+        <p>Веб-разработчик</p> 
+    </header> 
+ 
+    <nav> 
+        <ul> 
+            <li><a href="#about">Обо мне</a></li> 
+            <li><a href="#projects">Мои работы</a></li> 
+            <li><a href="#contact">Контакты</a></li> 
+        </ul> 
+    </nav> 
+ 
+    <section id="about"> 
+        <h2>Обо мне</h2> 
+        <p class="why">Занимаюсь разработкой веб-сайтов и созданием крутых интерфейсов.</p>
+        <p class="why">Обожаю креативные задачи и всегда ищу новые вызовы.</p> 
+    </section> 
+ 
+    <section id="projects"> 
+        <h2>Мои работы</h2>
+        <div class="project-container"> 
+            <div class="project"> 
+                <a class="git" href="https://github.com/VLytkin/web/tree/main/сайт%20lamma" target="_blank"> 
+                    <img src="img/project1.jpg" alt="Проект 1"> 
+                    <h3>Lamma Creative</h3> 
+                </a> 
+                <p>Лендинг для студии веб-дизайна "Lamma Creative Studio"</p> 
+            </div> 
+            <div class="project"> 
+                <a class="git" href="https://github.com/VLytkin/web/tree/main/слайд%20фон" target="_blank"> 
+                    <img src="img/project2.jpg" alt="Проект 2"> 
+                    <h3>Слайдер</h3> 
+                </a> 
+                <p>Готовое решение, которое с минимальными доработками можно встроить в уже готовый или разрабатываемый продукт</p> 
+            </div> 
+            <div class="project"> 
+                <a class="git" href="https://github.com/VLytkin/web/tree/main/курсы%20валют(API%20c%20ЦБ)" target="_blank"> 
+                    <img src="img/project3.jpg" alt="Проект 3"> 
+                    <h3>Конвертер валюты</h3> 
+                </a> 
+                <p>Данный проект при помощи 2 fetch-запросов запрашивает и "вытаскивает" курсы валют с сайта ЦБ России и стоимость драгоценных металлов, после чего происходит расчет и конвертация сначала валюты, а потом металлов. Также представляет из себя уже готовое решение, которое в случае необходимости легко можно интегрировать.</p> 
+            </div> 
+            <div class="project"> 
+                <a class="git" href="https://github.com/VLytkin/web/tree/main/список%20задач" target="_blank"> 
+                    <img src="img/project4.jpg" alt="Проект 4"> 
+                    <h3>Список задач</h3> 
+                </a> 
+                <p>Очередное готовое решение, которое легко интегрируется в вашу разработку с необходимыми изменениями, которые займут буквально минуты. Проект представляет собой список задач, который можно как расширять, так и уменьшать.</p> 
+            </div>
+        </div> 
+    </section> 
+ 
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>Свяжитесь со мной: <a href="mailto:Lytkin_vova@mail.ru">Lytkin_vova@mail.ru</a></p>
+        <p>Или найдите меня в социальных сетях:</p>
+        <ul class="social-links">
+            <li><a href="https://t.me/never_back_down159"><i class="fab fa-telegram-plane"></i> Telegram</a></li>
+            <li><a href="https://vk.com/vova_lytkin"><i class="fab fa-vk"></i> VK</a></li>
+            <li><a href="https://github.com/VLytkin"><i class="fab fa-github"></i> GitHub</a></li>
+        </ul>
+    </section> 
+ 
+    <footer> 
+        <p>&copy; 2024 Владимир Лыткин. Все права защищены.</p> 
+    </footer> 
+ 
+    <script src="script.js"></script> 
+</body> 
+</html>
