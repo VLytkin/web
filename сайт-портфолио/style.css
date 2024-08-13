@@ -87,7 +87,6 @@ section h2 {
 section p{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    margin-bottom: 10px;
 }
 
 #about {
@@ -101,7 +100,31 @@ section p{
 #about p{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    margin-bottom: 10px;
+}
+
+#about {
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-photo {
+    width: 150px; 
+    height: auto;
+    border-radius: 8%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    max-width: 600px; 
+    text-align: left;
 }
 
 #contact {
@@ -228,6 +251,14 @@ footer {
         width: 40px;
         height: 40px;
     }
+
+    .about-content {
+        flex-direction: column;
+    }
+    
+    .about-text {
+        text-align: center;
+    }
 }
 
 @media (max-width: 480px) {
@@ -249,3 +280,5 @@ footer {
         margin: 10px 0;
     }
 }
+
+
